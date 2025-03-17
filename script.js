@@ -2,7 +2,7 @@ const button = document.querySelector(".board__button");
 const board = document.querySelector(".board");
 
 function createBoard() {
-    board.value = "";
+    board.style.display = "none";
 };
 
 addEventListener("click", (event) => {
